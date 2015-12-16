@@ -35,7 +35,7 @@ clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entro
 print X_train
 clf.fit(X_train, y_train)
 
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/tree.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/tree.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -72,7 +72,7 @@ clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entro
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
 
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/is-grumpy.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/is-grumpy.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -115,7 +115,7 @@ clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entro
 print X_train
 clf.fit(X_train, y_train)
 
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/favorite-food-cat-food.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/favorite-food-cat-food.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -152,7 +152,7 @@ clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entro
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
 
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/favorite-food-dog-food.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/favorite-food-dog-food.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -189,7 +189,7 @@ clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entro
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
 
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/favorite-food-bacon.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/favorite-food-bacon.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -218,7 +218,7 @@ labels = ['plays fetch']
 clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entropy',
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-play-fetch.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-play-fetch.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -247,7 +247,7 @@ labels = ['is grumpy']
 clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entropy',
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-is-grumpy.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-is-grumpy.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -276,7 +276,7 @@ labels = ['favorite food=dog food']
 clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entropy',
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-favorite-food-dog-food.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-favorite-food-dog-food.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -304,7 +304,7 @@ labels = ['favorite food=bacon']
 clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entropy',
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-favorite-food-bacon.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/level2-favorite-food-bacon.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -328,7 +328,7 @@ labels = ['favorite food=bacon']
 clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entropy',
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/level3-favorite-food-bacon.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/level3-favorite-food-bacon.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -352,7 +352,7 @@ labels = ['favorite food=dog food']
 clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entropy',
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/level3-favorite-food-dog-food.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/level3-favorite-food-dog-food.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
@@ -376,7 +376,7 @@ labels = ['plays fetch']
 clf = DecisionTreeClassifier(max_depth=None, max_features=None, criterion='entropy',
                              min_samples_leaf=1, min_samples_split=2)
 clf.fit(X_train, y_train)
-f = '/home/sunila/practical-machine-learning/ch-05/decision-trees/images/level3-plays-fetch.dot'
+f = 'c:/sunila/practical-machine-learning/ch-05/decision-trees/images/level3-plays-fetch.dot'
 export_graphviz(clf, out_file=f, feature_names=labels, close=True)
 
 
