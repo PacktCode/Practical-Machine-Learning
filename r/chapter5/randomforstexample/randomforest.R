@@ -1,10 +1,9 @@
 # Practical Machine learning
 # Random Forests example
+# Chapter 5
 
-# Set working directory and import datafiles
-setwd("~/Practica-Machine-Learning/Chap05")
-train <- read.csv("train.csv")
-test <- read.csv("test.csv")
+train <- read.csv("data/train.csv")
+test <- read.csv("data/test.csv")
 
 # Install and load required packages for decision trees and forests
 library(rpart)
@@ -82,7 +81,7 @@ varImpPlot(fit)
 # Now let's make a prediction and write a submission file
 Prediction <- predict(fit, test)
 submit <- data.frame(PassengerId = test$PassengerId, Survived = Prediction)
-write.csv(submit, file = "predict1.csv", row.names = FALSE)
+write.csv(submit, file = "output/predict1.csv", row.names = FALSE)
 
 # Build condition inference tree Random Forest
 set.seed(415)
@@ -91,5 +90,5 @@ fit <- cforest(as.factor(Survived) ~ Pclass + Sex + Age + SibSp + Parch + Fare +
 # Now let's make a prediction and write a submission file
 Prediction <- predict(fit, test, OOB=TRUE, type = "response")
 submit <- data.frame(PassengerId = test$PassengerId, Survived = Prediction)
-write.csv(submit, file = "predict2.csv", row.names = FALSE)
+write.csv(submit, file = "output/predict2.csv", row.names = FALSE)
 
