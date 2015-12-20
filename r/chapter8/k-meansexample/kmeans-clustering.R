@@ -1,5 +1,5 @@
 # Practical machine learning
-# K Means Clustering example
+# K Means Clustering 
 # Chapter 8
 
 

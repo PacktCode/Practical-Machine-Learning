@@ -1,5 +1,5 @@
 # Practical Machine Learning 
-# Association Rules
+# Association Rules - Apriori
 # Chapter 7
 
 library(arules)

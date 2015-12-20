@@ -1,4 +1,7 @@
-##### Chapter 5: Decision Trees based learning - sunilag
+# Practical Machine learning
+# Decision Trees example
+# Chapter 5
+
 
 ## Understanding Decision Trees ----
 # calculate entropy of a two-class segment
