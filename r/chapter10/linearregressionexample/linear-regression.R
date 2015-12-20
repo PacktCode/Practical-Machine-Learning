@@ -1,5 +1,6 @@
-# Regression analysis of insurance charges data
-# Author: Kaushik Balakrishnan, PhD; Email: kaushikb258@gmail.com
+# Practical Machine learning
+# Regression Analysis - Linear Regression
+# Chapter 10
 
 
 ins <- read.csv("insurance.csv", stringsAsFactors = TRUE)
