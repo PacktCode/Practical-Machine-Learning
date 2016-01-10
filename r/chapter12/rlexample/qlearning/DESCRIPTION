@@ -1,0 +1,13 @@
+Package: qlearning
+Type: Package
+Title: Q-Learning: A Data Analysis Method for Constructing Adaptive
+        Interventions
+Version: 2.0
+Date: 2012-01-16
+Author: Min Qian, Inbal Nahum-Shani, Ashkan Ertefaie, Amarpreet Kaur and Susan A. Murphy
+Maintainer: Min Qian <mq2158@columbia.edu>
+Description: The <a1><b0>qlearning package<a1><b1> uses q-learning method to analyze data from a SMART trial, to inform the construction of high-quality adaptive interventions. See Nahum-Shani et al. (2010)  <a1><b0>Q-Learning: A Data   Analysis Method for Constructing Adaptive Interventions<a1><b1> for more details.
+Depends: R(>= 2.12.0)
+License: GPL (version 2 or later)
+Packaged: 2012-01-16 16:35:40 UTC; min
+Built: R 2.14.1; ; 2012-01-16 16:35:51 UTC; windows
