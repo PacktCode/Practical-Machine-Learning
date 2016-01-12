@@ -1,3 +1,6 @@
+# Practical Machine learning
+# Bayesian learning - Naive Bayes example 
+# Chapter 9
 
 using Distributions
 
