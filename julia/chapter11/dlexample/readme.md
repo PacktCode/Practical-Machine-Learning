@@ -1,1 +1,1 @@
-Refer to artifical neural network example
+Autoencoder example with a base from MATlab code
