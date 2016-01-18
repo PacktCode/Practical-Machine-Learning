@@ -1,0 +1,32 @@
+Test Error = 0.034482758620689655
+
+Learned classification forest model:
+TreeEnsembleModel classifier with 3 trees
+
+  Tree 0:
+    If (feature 434 <= 0.0)
+     If (feature 632 <= 0.0)
+      Predict: 1.0
+     Else (feature 632 > 0.0)
+      Predict: 0.0
+    Else (feature 434 > 0.0)
+     Predict: 1.0
+  Tree 1:
+    If (feature 399 <= 15.0)
+     If (feature 356 <= 0.0)
+      If (feature 126 <= 254.0)
+       Predict: 1.0
+      Else (feature 126 > 254.0)
+       Predict: 0.0
+     Else (feature 356 > 0.0)
+      Predict: 0.0
+    Else (feature 399 > 15.0)
+     Predict: 0.0
+  Tree 2:
+    If (feature 517 <= 41.0)
+     Predict: 0.0
+    Else (feature 517 > 41.0)
+     If (feature 548 <= 251.0)
+      Predict: 1.0
+     Else (feature 548 > 251.0)
+      Predict: 0.0
