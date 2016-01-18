@@ -1,0 +1,43 @@
+Test Error = 0.0
+Learned classification GBT model:
+TreeEnsembleModel classifier with 3 trees
+
+  Tree 0:
+    If (feature 434 <= 0.0)
+     If (feature 100 <= 165.0)
+      Predict: -1.0
+     Else (feature 100 > 165.0)
+      Predict: 1.0
+    Else (feature 434 > 0.0)
+     Predict: 1.0
+  Tree 1:
+    If (feature 434 <= 0.0)
+     If (feature 568 <= 253.0)
+      If (feature 211 <= 250.0)
+       Predict: 0.47681168808847024
+      Else (feature 211 > 250.0)
+       Predict: 0.4768116880884703
+     Else (feature 568 > 253.0)
+      Predict: -0.4768116880884694
+    Else (feature 434 > 0.0)
+     If (feature 351 <= 58.0)
+      Predict: -0.4768116880884702
+     Else (feature 351 > 58.0)
+      Predict: -0.47681168808847035
+  Tree 2:
+    If (feature 434 <= 0.0)
+     If (feature 295 <= 253.0)
+      If (feature 152 <= 253.0)
+       Predict: -0.5183379293761909
+      Else (feature 152 > 253.0)
+       Predict: -0.5183379293761909
+     Else (feature 295 > 253.0)
+      Predict: 0.5183379293761909
+    Else (feature 434 > 0.0)
+     If (feature 157 <= 252.0)
+      Predict: 0.5183379293761909
+     Else (feature 157 > 252.0)
+      If (feature 156 <= 85.0)
+       Predict: 0.5183379293761909
+      Else (feature 156 > 85.0)
+       Predict: 0.5183379293761909
