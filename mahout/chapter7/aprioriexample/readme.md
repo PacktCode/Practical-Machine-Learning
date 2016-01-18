@@ -1,1 +1,1 @@
-This folder has an example implementation for Apriori algorithm using Apache Mahout 0.9 distribution covered as a part of chapter 7 association rule based learning methods
+There are no direct APIs for implementing apriori based association rule based learning. FP Growth has a specific implementation for frequent pattern based association rules implementation.
