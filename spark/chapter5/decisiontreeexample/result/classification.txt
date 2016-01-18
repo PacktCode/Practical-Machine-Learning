@@ -1,0 +1,11 @@
+Test Error = 0.03125
+
+Learned classification tree model:
+DecisionTreeModel classifier of depth 2 with 5 nodes
+  If (feature 434 <= 0.0)
+   If (feature 99 <= 0.0)
+    Predict: 0.0
+   Else (feature 99 > 0.0)
+    Predict: 1.0
+  Else (feature 434 > 0.0)
+   Predict: 1.0

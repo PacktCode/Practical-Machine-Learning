@@ -1,0 +1,47 @@
+Test Mean Squared Error = 22.935061460324544
+
+Learned regression tree model:
+DecisionTreeModel regressor of depth 4 with 29 nodes
+  If (feature 5 <= 0.269592)
+   If (feature 12 <= -0.279249)
+    If (feature 5 <= 0.140832)
+     If (feature 7 <= -0.95335)
+      Predict: 38.95
+     Else (feature 7 > -0.95335)
+      Predict: 21.594078947368423
+    Else (feature 5 > 0.140832)
+     If (feature 4 <= -0.427984)
+      Predict: 28.96785714285715
+     Else (feature 4 > -0.427984)
+      Predict: 23.650000000000006
+   Else (feature 12 > -0.279249)
+    If (feature 0 <= -0.987141)
+     If (feature 7 <= -0.857305)
+      Predict: 15.514285714285714
+     Else (feature 7 > -0.857305)
+      Predict: 19.866666666666667
+    Else (feature 0 > -0.987141)
+     If (feature 0 <= -0.78628)
+      Predict: 14.6
+     Else (feature 0 > -0.78628)
+      Predict: 11.236842105263158
+  Else (feature 5 > 0.269592)
+   If (feature 5 <= 0.491857)
+    If (feature 12 <= -0.566225)
+     If (feature 7 <= -0.857305)
+      Predict: 45.65
+     Else (feature 7 > -0.857305)
+      Predict: 33.66923076923077
+    Else (feature 12 > -0.566225)
+     If (feature 2 <= -0.579179)
+      Predict: 27.580000000000002
+     Else (feature 2 > -0.579179)
+      Predict: 15.0
+   Else (feature 5 > 0.491857)
+    If (feature 11 <= 0.798729)
+     Predict: 21.9
+    Else (feature 11 > 0.798729)
+     If (feature 10 <= 0.106383)
+      Predict: 46.4470588235294
+     Else (feature 10 > 0.106383)
+      Predict: 40.125
