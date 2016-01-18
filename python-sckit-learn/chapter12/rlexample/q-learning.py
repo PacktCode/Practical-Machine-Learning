@@ -1,5 +1,5 @@
 # Practical Machine learning
-# Regression Analysis - Linear Regression example 
+# Reinforcement learning - Q learning example 
 # Chapter 12
  
 import matplotlib.pyplot as plt
