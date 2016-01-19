@@ -1,0 +1,66 @@
+<project>
+  <groupId>spark</groupId>
+  <artifactId>spark-apriori</artifactId>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Spark A Priori</name>
+  <packaging>jar</packaging>
+  <version>1.0</version>
+  <repositories>
+    <repository>
+      <id>scala-tools.org</id>
+      <name>Scala-tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>scala-tools.org</id>
+      <name>Scala-tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases</url>
+    </pluginRepository>
+  </pluginRepositories>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency> <!-- Spark dependency -->
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_2.10</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>3.1.6</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>compile</goal>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <args>
+            <!-- work-around for https://issues.scala-lang.org/browse/SI-8358 -->
+            <arg>-nobootcp</arg>
+          </args>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
