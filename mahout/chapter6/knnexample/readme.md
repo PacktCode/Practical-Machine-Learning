@@ -1,2 +1,4 @@
-There are mo direct Apache Mahout libraries that support Nearest Neighbor implementations currently. Frameworks like Spark or R are being used in conjunction with Hadoop to implement this algorithm.
-This folder will be updated as and when there are any major updates from Mahout API for this implementation.
+There are no direct APIs for implementing KNN algorithm. A derived implementation is presented in this folder and  implementation details will be added as and when supporting APIs are made available with the maout distributions
+
+Reference to list of algorithms supported by mahout can be found here:
+https://mahout.apache.org/users/basics/algorithms.html

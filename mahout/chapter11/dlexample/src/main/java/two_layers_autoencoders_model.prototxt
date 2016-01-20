@@ -1,0 +1,45 @@
+config_layer {
+  config_preprocess {
+  	eps_1 : 0.1
+  	eps_2 : 10
+  }
+  
+  config_autoencoders {
+ 	number_of_units : 700    
+ 	rho : 0.5
+	lambda : 0.0001
+	beta : 1
+	numEpochs  : 1
+	numBatches : 2
+	alpha_init : 0.05
+	alpha_step : 2.0
+	alpha_max_steps : 10	
+  }
+
+  config_feature_extractor {
+    input_dim1: 128
+    input_dim2: 32
+    feature_dim1: 32
+    feature_dim2: 32
+  }
+  config_pooler {
+    pool_size: 2
+  }  
+}
+
+config_layer {
+  config_autoencoders {
+ 	number_of_units : 700    
+ 	rho : 0.5
+	lambda : 0.0001
+	beta : 1
+	numEpochs  : 1
+	numBatches : 2
+	alpha_init : 0.05
+	alpha_step : 2.0
+	alpha_max_steps : 10	
+  }
+  config_pooler {
+    pool_size: 2
+  }  
+}
